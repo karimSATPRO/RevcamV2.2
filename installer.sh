@@ -3,17 +3,10 @@ echo "############ OTEX #################"
 #!/bin/sh
 #
 
-wget -O /tmp/enigma2-plugin-extensions-revcam_v1.0_all.ipk "https://github.com/karimSATPRO/Revcamemu/blob/main/enigma2-plugin-extensions-revcam_v1.0_all.ipk?raw=true"
+wget -O /tmp/17-enigma2-plugin-softcams-revcamv2_0.2_all.ipk "https://github.com/karimSATPRO/Revcamemu/blob/main/17-enigma2-plugin-softcams-revcamv2_0.2_all.ipk?raw=true"
 
 opkg install --force-overwrite /tmp/*.ipk
 
-wget -O /usr/bin/RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/RevCam?raw=true
-
-wget -O /etc/init.d/softcam.RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/softcam.RevCam
-
-chmod 755 /usr/bin/revcamv2
-chmod 755 /etc/init.d/softcam.RevCamV2
-chmod 755 /etc/RevCamV2.emu
 echo ""
 cd ..
 sync
