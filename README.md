@@ -1,4 +1,4 @@
 
-2.0
+V2.2
 
-wget https://raw.githubusercontent.com/karimSATPRO/Revcamemu/main/installer.sh -O - | /bin/sh
+wget https://github.com/karimSATPRO/RevcamV2.2/blob/main/installer.sh -O - | /bin/sh
