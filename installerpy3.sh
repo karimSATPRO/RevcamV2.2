@@ -1,17 +1,17 @@
-echo "############### REVTEAM #################"
-echo "############ OTEX #################"
-#!/bin/sh
-#
+echo "##############################################"
+écho "#############################################" 
+echo "##############################################"
+echo "############ KEYADDER[Bissfeed] #################"
 
-wget -O /usr/bin/RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/RevCam?raw=true
+wget -O /tmp/enigma2-plugin-softcams-revcam_2.0_all.ipk "https://github.com/karimSATPRO/RevcamV2.2/blob/main/enigma2-plugin-softcams-revcam_2.0_all.ipk?raw=true"
 
-wget -O /etc/init.d/softcam.RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/softcam.RevCam
+opkg install --force-overwrite /tmp/*.ipk
 
 echo ""
 cd ..
 sync
-echo "############ INSTALLATION COMPLETED ########"
-echo "############ RESTARTING... #################" 
+echo "############ Installation Successful  ########"
+echo "############ Restart Enigma2 GUI... #################" 
 init 4
 sleep 2
 init 3
