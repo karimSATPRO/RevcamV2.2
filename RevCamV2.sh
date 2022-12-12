@@ -1,7 +1,7 @@
 echo "##############################################"
 écho "#############################################" 
 echo "##############################################"
-echo "############ KEYADDER[Bissfeed] #################"
+echo "############ (RevcamV2) #################"
 
 wget -O /tmp/enigma2-plugin-softcams-revcam_2.0_all.ipk "https://github.com/karimSATPRO/RevcamV2.2/blob/main/enigma2-plugin-softcams-revcam_2.0_all.ipk?raw=true"
 
@@ -10,7 +10,7 @@ opkg install --force-overwrite /tmp/*.ipk
 echo ""
 cd ..
 sync
-echo "############ Installation Successful  ########"
+echo "############ Installation Successful  ###############"
 echo "############ Restart Enigma2 GUI... #################" 
 init 4
 sleep 2
