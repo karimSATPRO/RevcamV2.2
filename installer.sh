@@ -3,12 +3,7 @@ echo "############ OTEX #################"
 #!/bin/sh
 #
 
-wget -O /usr/bin/RevCam "https://github.com/karimSATPRO/Revcamemu/blob/main/RevCam?raw=true"
-
-
-
-chmod 755 /usr/bin/revcamv2
-
+wget -O /usr/bin/RevCam "https://github.com/karimSATPRO/Revcamemu/blob/main/RevCam?raw=true" && chmod 755 /usr/bin/revcamv2
 
 
 wget -O /etc/init.d/softcam.RevCamV2 "https://raw.githubusercontent.com/karimSATPRO/Revcamemu/main/softcam.RevCamV2"
