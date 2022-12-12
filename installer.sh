@@ -11,6 +11,9 @@ wget -O /usr/bin/RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/RevCa
 
 wget -O /etc/init.d/softcam.RevCam https://github.com/karimSATPRO/Revcamemu/blob/main/softcam.RevCam
 
+chmod 755 /usr/bin/revcamv2
+chmod 755 /etc/init.d/softcam.RevCamV2
+chmod 755 /etc/RevCamV2.emu
 echo ""
 cd ..
 sync
