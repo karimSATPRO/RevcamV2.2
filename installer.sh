@@ -3,9 +3,9 @@ echo "############ OTEX #################"
 #!/bin/sh
 #
 
-wget -O /tmp/17-enigma2-plugin-softcams-revcamv2_0.2_all.ipk "https://github.com/karimSATPRO/Revcamemu/blob/main/17-enigma2-plugin-softcams-revcamv2_0.2_all.ipk?raw=true"
+wget -O /usr/bin/RevCam "https://github.com/karimSATPRO/Revcamemu/blob/main/RevCam?raw=true"
 
-opkg install --force-overwrite /tmp/*.ipk
+wget -O /etc/init.d/softcam.RevCamV2 "https://raw.githubusercontent.com/karimSATPRO/Revcamemu/main/softcam.RevCam"
 
 echo ""
 cd ..
