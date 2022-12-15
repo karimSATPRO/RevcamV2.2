@@ -1,18 +1,8 @@
 echo ""
 echo ""
 echo "---------------------------------------------------------"
-echo "* RevCam Config & Softcam files in [/etc/tuxbox/revcam] *"
+echo "*    (enigma2-plugin-softcams-revcam_2.0_all.ipk)          *"
 echo "---------------------------------------------------------"
-echo ""
-echo ""
-echo "*******************************************"
-echo "*                                         *"
-echo "*                                         *"
-echo "*             Install Finished            *"
-echo "*                                         *"
-echo "*         Need To Restart Enigma2         *"
-echo "*                                         *"
-echo "*******************************************"
 
 wget -O /tmp/enigma2-plugin-softcams-revcam_2.0_all.ipk "https://github.com/karimSATPRO/RevcamV2.2/blob/main/enigma2-plugin-softcams-revcam_2.0_all.ipk?raw=true"
 
@@ -28,5 +18,15 @@ done
 
 #### Restart Image ####
 killall -9 enigma2
-
+echo ""
+echo ""
+echo "*******************************************"
+echo "*                                         *"
+echo "*                                         *"
+echo "*                                         *"
+echo "*             Install Finished            *"
+echo "*                                         *"
+echo "*                                         *"
+echo "*                                         *"
+echo "*******************************************"
 exit 0
